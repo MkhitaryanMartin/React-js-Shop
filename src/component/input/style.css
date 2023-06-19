@@ -1,0 +1,67 @@
+.input-container {
+    width: 450px;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.input-container span i {
+    margin: 0 0 0 5px;
+    font-size: 25px;
+}
+
+.valid {
+    color: green
+}
+
+.errorText::before {
+    display: inline;
+    content: "⚠ ";
+}
+
+.errorText,
+.notValid {
+    color: red
+}
+
+.input-container span {
+    width: 450px;
+}
+
+.input {
+    width: 100%;
+    height: 52px;
+    margin-top: 5px;
+    outline: none;
+    border-color: white;
+    border: none;
+    background-color: #F4F2F8;
+    padding-left: 10px;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+    outline: none;
+    border-color: none;
+
+}
+
+.height {
+    height: 220px;
+}
+
+@media screen and (max-width: 800px) {
+    .input-container {
+        width: 60vw;
+        margin: 1vh 1vw;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .input-container {
+        width: 80vw;
+        margin: 1vh 1vw;
+    }
+}

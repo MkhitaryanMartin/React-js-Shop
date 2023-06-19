@@ -1,0 +1,25 @@
+.bookMark-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 20% 0 20%;
+}
+
+.card-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+
+.margin-bootom {
+    margin-bottom: 480px;
+}
+
+@media screen and (max-width: 500px) {
+    .margin-bootom {
+        margin-bottom: 110px;
+    }
+}
